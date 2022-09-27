@@ -1,0 +1,39 @@
+<html>
+
+    <head> 
+      <!--support many language-->
+      <meta charset="utf-8"> 
+      <!--For Responsive-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">  <!--this is mobile view-->
+      <meta name="author" content="Khalid Mossad" />
+      <meta name="description" content="Smart Login" />
+      <meta name="keywords" content="html,css,js,jquery" />
+      <title>Smart Login</title>
+      <!--Css Links--> 
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body class=" mt-5 p-3">
+        
+        <div class="container d-flex justify-content-center ">
+            <div class="grand col-md-8 py-5 d-flex justify-content-center">
+                <div class="parent w-75">
+                    <h1 class=" text-center">Smart Login System</h1>
+                    <input class=" form-control m-3 " type="text" placeholder="Enter your name" id="name">
+                    <input class=" form-control m-3 " type="email" placeholder="Enter your email" id="email">
+                    <input class=" form-control m-3" type="password" placeholder="Enter Your password" id="password">
+    
+                    <p id="good" class="good"> </p>
+                    <p id="exist" class=" text-danger text-center"></p>
+                
+                    <button onclick="signUp()" class=" signup form-control m-3 btn btn-outline-info">Sign Up</button>
+                    <p class=" m-3 m-auto text-center text-white">Don’t have an account? <a class=" text-decoration-none " href="index.html"> Sign In </a> </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

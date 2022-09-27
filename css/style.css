@@ -1,0 +1,83 @@
+body
+{
+    background-color: #24353F;
+}
+
+textarea
+{
+    resize: none;
+}
+
+.main-parent
+{
+    background-color: #24353F !important;
+    box-shadow: 0px 0px 18px 14px !important;
+}
+
+.danger
+{
+    color: red;
+    text-align: center;
+}
+
+.good
+{
+    color: green;
+    text-align: center;
+}
+
+.grand
+{
+    background-color: #24353F !important;
+    box-shadow: 0px 0px 18px 14px !important;
+}
+
+.grand .parent h1
+{
+    color: #17a2b8;
+}
+
+input
+{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.parent a
+{
+    color: white;
+}
+
+input::placeholder
+{
+    color: white;
+}
+
+nav .link
+{
+    font-size: 25px;
+}
+
+nav .link a
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav .link a:hover 
+{
+    color: white;
+}
+
+
+.btn a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5);
+}
+
+.btn:hover a
+{
+    color: white;
+    
+}
